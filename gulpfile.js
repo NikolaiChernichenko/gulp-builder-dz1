@@ -35,3 +35,18 @@ $.gulp.task('default', $.gulp.series(
     'serve'
   )
 ));
+
+$.gulp.task('generate-sprites', $.gulp.series(
+  'clean',
+  $.gulp.parallel(
+    'sprite:svg'
+  )
+));
+
+$.gulp.task('copy-files', $.gulp.series(
+  'clean',
+  $.gulp.parallel(
+    'copy:image',
+    'copy:fonts'
+  )
+));
