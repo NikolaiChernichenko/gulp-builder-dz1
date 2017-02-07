@@ -1,10 +1,10 @@
 # Учебная сборка Loftschool
 
-> Сборка работает на gulp версии 4.0. 
-> Author: Nikolai Chernichenko
-> Done:
->   1. Created sprites-building task
->   2. Created task to move files from source to prod folder
+> Сборка работает на gulp версии 4.0.  
+> Author: Nikolai Chernichenko  
+> Done:  
+>   1. Created sprites-building task  
+>   2. Created task to move files from source to prod folder  
 
 #### Для начала работы
 
